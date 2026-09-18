@@ -2363,7 +2363,7 @@ export default function Home() {
           >
            🎁 A little birthday surprise, just for you. 🎁
             <br />
-            just for you. ✨
+            
           </motion.p>
 
           {!started && (
