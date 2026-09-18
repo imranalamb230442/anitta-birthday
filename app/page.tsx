@@ -2361,7 +2361,7 @@ export default function Home() {
               delay: 0.8,
             }}
           >
-            Here’s your gift from me
+           🎁 A little birthday surprise, just for you. 🎁
             <br />
             just for you. ✨
           </motion.p>
