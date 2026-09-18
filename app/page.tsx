@@ -2361,7 +2361,7 @@ export default function Home() {
               delay: 0.8,
             }}
           >
-            Someone made a tiny little world
+            Here’s your gift from me
             <br />
             just for you. ✨
           </motion.p>
