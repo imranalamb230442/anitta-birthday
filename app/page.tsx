@@ -1722,8 +1722,7 @@ function LetterScene({ onContinue }: { onContinue: () => void }) {
 
                 <div className="letter-text">
                   <p>
-                    Sometimes, the best friendships begin in places and
-                    moments we never expect.
+                    Sometimes, the best friendships begin in the most unexpected places.
                   </p>
 
                   <p>
@@ -1742,30 +1741,22 @@ function LetterScene({ onContinue }: { onContinue: () => void }) {
                     friends.
                   </p>
 
-                  <p>And slowly, those small conversations became memories.</p>
+                  <p> From our conversations and random laughs to visiting different places and spending time together,
+                     those little moments slowly became memories that I'll always be happy to remember. 
+                     </p>
 
-                  <p>
-                    From meeting at ISRO to spending time together in lab, visiting
-                    different places, laughing at random things, and creating
-                    memories along the way, every experience became a little
-                    chapter of our friendship.
-                  </p>
+                  <p> Looking back, it's amazing how unexpectedly a friendship can grow.
+                     We didn't need to have everything in common.
+                      We simply enjoyed our time together,
+                     explored new places, and created memories along the way.
+                      </p>
 
-                  <p>
-                    Looking back, it's amazing how a friendship can grow from
-                    something so unexpected. We didn't need to have everything
-                    in common. We just enjoyed the time we spent together,
-                    explored new places, and made memories that are worth
-                    keeping.
-                  </p>
-
-                  <p>
-                    As you step into another year of your life, I genuinely
-                    hope you achieve everything you dream about in your{" "}
-                    <strong>career and future</strong>. May you find amazing
-                    opportunities, meet people who inspire you, and accomplish
-                    things that make you truly proud of yourself.
-                  </p>
+                 <p> As you step into another year of your life,
+                   I genuinely hope you achieve everything you dream of in your
+                    <strong>career and future</strong>.
+                     May you find amazing opportunities,
+                  meet people who inspire you, and accomplish
+                   things that make you truly proud. </p>
 
                   <p className="letter-highlight">
                     May your future be brighter than you imagine, your career
