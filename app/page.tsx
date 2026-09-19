@@ -2210,6 +2210,8 @@ export default function Home() {
   const [cakeWished, setCakeWished] =
     useState(false);
 
+  const birthdayAudioRef = useRef<HTMLAudioElement | null>(null);
+
   const handleStart = () => {
     setStarted(true);
 
@@ -2220,6 +2222,15 @@ export default function Home() {
 
   const handleGiftOpen = () => {
     setGiftOpened(true);
+
+    const audio = new Audio("/music/birthday.mp3");
+    audio.volume = 0.8;
+
+    birthdayAudioRef.current = audio;
+
+    audio.play().catch((error) => {
+      console.log("Birthday music could not start:", error);
+    });
   };
 
   const handleWish = () => {
@@ -2227,6 +2238,11 @@ export default function Home() {
   };
 
   const handleContinue = () => {
+    if (birthdayAudioRef.current) {
+      birthdayAudioRef.current.pause();
+      birthdayAudioRef.current.currentTime = 0;
+    }
+
     setScene(3);
   };
 
