@@ -1745,7 +1745,7 @@ function LetterScene({ onContinue }: { onContinue: () => void }) {
                   <p>And slowly, those small conversations became memories.</p>
 
                   <p>
-                    From meeting at ISRO to spending time together, visiting
+                    From meeting at ISRO to spending time together in lab, visiting
                     different places, laughing at random things, and creating
                     memories along the way, every experience became a little
                     chapter of our friendship.
@@ -1767,22 +1767,6 @@ function LetterScene({ onContinue }: { onContinue: () => void }) {
                     things that make you truly proud of yourself.
                   </p>
 
-                  <p>
-                    There will be difficult days and unexpected turns, but I
-                    hope you always believe in yourself, keep learning, keep
-                    growing, and keep moving forward.
-                  </p>
-
-                  <p>
-                    Maybe years from now, we'll look back and laugh about how
-                    we first met at ISRO, how difficult our conversations
-                    sometimes were because of the language barrier, and how
-                    somehow we still became good friends and explored different
-                    places together.
-                  </p>
-
-                  <p>Those are the memories worth keeping.</p>
-
                   <p className="letter-highlight">
                     May your future be brighter than you imagine, your career
                     more successful than you expect, and your life filled with
@@ -1795,10 +1779,7 @@ function LetterScene({ onContinue }: { onContinue: () => void }) {
                     And most importantly, <strong>keep being yourself.</strong>
                   </p>
 
-                  <p className="letter-birthday">
-                    <strong>Happy Birthday, Anitta! 🎂✨</strong>
-                  </p>
-
+                 
                   <p>
                     I'm really glad our paths crossed at ISRO, and even more
                     glad that somewhere along the way, that meeting turned
